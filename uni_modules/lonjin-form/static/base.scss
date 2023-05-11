@@ -1,0 +1,28 @@
+// flex布局
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-bt{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.flex-start{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.flex-end{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+view{
+	box-sizing: border-box;
+}

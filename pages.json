@@ -7,12 +7,30 @@
 			}
 		},
 		{
-			"path": "pages/component/index",
+			"path": "pages/user/index",
 			"style": {
 				"navigationBarTitleText": "个人中心"
 			}
 		}
-	],
+        ,{
+            "path" : "pages/user/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "维修详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -31,7 +49,7 @@
 			"selectedIconPath": "static/image/home-selected.png",
 			"text": ""
 		}, {
-			"pagePath": "pages/component/index",
+			"pagePath": "pages/user/index",
 			"iconPath": "static/image/user.png",
 			"selectedIconPath": "static/image/user-selected.png",
 			"text": ""
